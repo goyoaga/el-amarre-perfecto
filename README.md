@@ -1,25 +1,58 @@
-# La Ola Perfecta
+<div align="center">
 
-**Una barca. Una ola. Un solo toque en el momento exacto.**
+<img src="public/cover.svg" alt="La Ola Perfecta: una pequeña barca sobre una ola mediterránea" width="100%" />
 
-🎮 Juega en: https://goyoaga.github.io/la-ola-perfecta/
+# 🌊 La Ola Perfecta
 
-## El reto
+### Una barca. Una ola. Un solo toque.
 
-Mira cómo se acerca la ola y toca cuando la cresta pase exactamente bajo la barca. El resultado te dice a cuántos centímetros virtuales quedaste del momento perfecto.
+**¿Puedes tocar justo cuando la cresta pasa bajo la barca?**
 
-- Menos de 8 cm: **¡Ola perfecta!**
-- Tu mejor marca se guarda en este navegador.
-- El sonido empieza siempre **OFF**.
-- Funciona con toque, clic y barra espaciadora.
-- Gratis, sin cuenta y pensado para partidas de pocos segundos.
+[![Jugar](https://img.shields.io/badge/▶_JUGAR_AHORA-326F70?style=for-the-badge&logoColor=white)](https://goyoaga.github.io/la-ola-perfecta/)
+[![Ko-fi](https://img.shields.io/badge/☕_INVÍTAME_UN_CAFÉ-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/arielgoyoaga)
 
-## Más juegos
+![JavaScript](https://img.shields.io/badge/JavaScript-ES_Modules-F7DF1E?style=for-the-badge&logo=javascript&logoColor=222)
+![Canvas](https://img.shields.io/badge/Canvas-2D-5F9B94?style=for-the-badge&logo=html5&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-Build-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Hosting-222222?style=for-the-badge&logo=github&logoColor=white)
 
-Descubre el resto de **UNAMAS GAMES**: https://goyoaga.github.io/una-mas-games/
+`🎮 Juego gratuito` · `📱 Móvil y escritorio` · `👆 Un solo toque`
 
-## Apoya el proyecto
+</div>
 
-¿Te divertiste? ☕ https://ko-fi.com/arielgoyoaga
+---
 
-Hecho para **UNAMAS GAMES** · una partida más y seguimos.
+## ✨ Espera el momento perfecto
+
+La ola avanza sola mientras la barca espera. Tu única decisión es **cuándo tocar**. Hazlo cuando la cresta esté exactamente bajo la barca y descubre a cuántos centímetros virtuales te quedaste del punto perfecto.
+
+<div align="center">
+
+**🌊 OBSERVA → ⏳ ESPERA → 👆 TOCA → 📏 DESCUBRE**
+
+</div>
+
+| Detalle | Cómo funciona |
+| :--- | :--- |
+| 🌊 Ola | Se mueve automáticamente y cambia ligeramente entre partidas. |
+| 👆 Control | Un toque en la escena o en **¡Ahora!**; también sirve clic o barra espaciadora. |
+| 📏 Resultado | Distancia virtual entre la barca y la cresta en el instante del toque. |
+| 🏆 Ola perfecta | Menos de **8 cm** activa la celebración. |
+| ⭐ Récord | Tu mejor marca queda guardada en este navegador cuando está disponible. |
+| 🔊 Sonido | Siempre empieza desactivado y puedes activarlo desde la cabecera. |
+
+## 🚀 Jugar
+
+**[Abrir La Ola Perfecta](https://goyoaga.github.io/la-ola-perfecta/)**
+
+Está pensado especialmente para móvil: observa la ola y toca con una sola mano. Cada intento dura apenas unos segundos y puedes lanzar inmediatamente **otra ola**.
+
+## ☕ Apoya UNAMAS GAMES
+
+El juego es gratuito. Si te divertiste y quieres apoyar la creación de más minijuegos, puedes **[invitarme un café en Ko-fi ☕](https://ko-fi.com/arielgoyoaga)**.
+
+También puedes descubrir los demás juegos en **[UNAMAS GAMES](https://goyoaga.github.io/una-mas-games/)**.
+
+---
+
+<div align="center"><sub>Una ola más. Y otra. 🌊</sub></div>
