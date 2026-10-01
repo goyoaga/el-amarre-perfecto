@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="public/cover.svg" alt="Paso Entre Olas: una barca frente a un paso entre dos olas" width="100%" />
+<img src="public/cover.svg" alt="El Amarre Perfecto: una barca acercándose a un punto de amarre mediterráneo" width="100%" />
 
-# 🌊 Paso Entre Olas
+# ⚓ El Amarre Perfecto
 
-### Dos olas. Un hueco. Un solo toque.
+### Corta el motor. Y espera.
 
-**Espera el momento, acelera y atraviesa antes de que el paso se cierre.**
+**¿Puedes dejar la barca prácticamente clavada junto al amarre?**
 
-[![Jugar](https://img.shields.io/badge/▶_JUGAR_AHORA-326F70?style=for-the-badge&logoColor=white)](https://goyoaga.github.io/paso-entre-olas/)
+[![Jugar](https://img.shields.io/badge/▶_JUGAR_AHORA-326F70?style=for-the-badge&logoColor=white)](https://goyoaga.github.io/el-amarre-perfecto/)
 [![Ko-fi](https://img.shields.io/badge/☕_INVÍTAME_UN_CAFÉ-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/arielgoyoaga)
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES_Modules-F7DF1E?style=for-the-badge&logo=javascript&logoColor=222)
@@ -22,30 +22,30 @@
 
 ---
 
-## ✨ Encuentra el paso
+## ⚓ Corta en el momento justo
 
-Las olas abren y cierran un hueco frente a la barca. **Toca cuando veas tu oportunidad**: la barca acelerará automáticamente. Si atraviesas limpio, sumas uno a tu racha y aparece inmediatamente el siguiente paso.
+La barca avanza automáticamente hacia el amarre. Tu única decisión es **cuándo cortar el motor**. Desde ese instante no puedes corregir nada: observa cómo pierde velocidad y espera a descubrir dónde se detiene.
 
 <div align="center">
 
-**🌊 ESPERA → 👆 TOCA → 🚤 PASA → 🔥 ENCADENA**
+**🚤 AVANZA → 👆 CORTA → 😬 ESPERA → ⚓ RESULTADO → UNA MÁS**
 
 </div>
 
 | Detalle | Cómo funciona |
 | :--- | :--- |
-| 🌊 Olas | El paso se abre y se cierra continuamente. |
-| 👆 Control | Un toque, clic o barra espaciadora. |
-| 🔥 Racha | Cada paso limpio suma uno. |
-| 💥 Fallo | Si el paso está demasiado cerrado, la ola alcanza la barca. |
-| ⭐ Récord | Tu mejor racha queda guardada en este navegador. |
+| 🚤 Barca | Entra con una velocidad ligeramente diferente en cada intento. |
+| 👆 Control | Un toque, clic o barra espaciadora para cortar el motor. |
+| 🌊 Inercia | Tras cortar, la barca sigue deslizándose hasta detenerse. |
+| ⚓ Objetivo | Quedar lo más cerca posible del punto de amarre. |
+| ⭐ Récord | Se guarda tu menor distancia al amarre. |
 | 🔊 Sonido | Empieza desactivado. |
 
 ## 🚀 Jugar
 
-**[Abrir Paso Entre Olas](https://goyoaga.github.io/paso-entre-olas/)**
+**[Abrir El Amarre Perfecto](https://goyoaga.github.io/el-amarre-perfecto/)**
 
-No hay pantalla de resultado entre aciertos: superas una ola y la siguiente llega enseguida. Al fallar, pulsa **UNA MÁS**.
+Cada intento dura solo unos segundos. Lo difícil empieza después de tocar: ya no puedes hacer nada salvo mirar cómo la barca se acerca… y esperar.
 
 ## ☕ Apoya UNAMAS GAMES
 
@@ -55,4 +55,4 @@ Descubre los demás juegos en **[UNAMAS GAMES](https://goyoaga.github.io/una-mas
 
 ---
 
-<div align="center"><sub>Una más. Y otra. 🌊</sub></div>
+<div align="center"><sub>Una más. Y otra. ⚓</sub></div>
