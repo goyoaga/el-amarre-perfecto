@@ -6,7 +6,7 @@
 
 ### Una barca. Una ola. Un solo toque.
 
-**¿Puedes tocar justo cuando la cresta pasa bajo la barca?**
+**¿Puedes atacar la ola en el momento exacto y conseguir el salto perfecto?**
 
 [![Jugar](https://img.shields.io/badge/▶_JUGAR_AHORA-326F70?style=for-the-badge&logoColor=white)](https://goyoaga.github.io/la-ola-perfecta/)
 [![Ko-fi](https://img.shields.io/badge/☕_INVÍTAME_UN_CAFÉ-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/arielgoyoaga)
@@ -22,30 +22,30 @@
 
 ---
 
-## ✨ Espera el momento perfecto
+## ✨ Convierte la ola en una rampa
 
-La ola avanza sola mientras la barca espera. Tu única decisión es **cuándo tocar**. Hazlo cuando la cresta esté exactamente bajo la barca y descubre a cuántos centímetros virtuales te quedaste del punto perfecto.
+La barca avanza mientras una ola se acerca. Tu única decisión es **cuándo acelerar**. Toca al atacar la cresta: cuanto mejor sea el timing, más alto despega la barca y mayor será la distancia del salto.
 
 <div align="center">
 
-**🌊 OBSERVA → ⏳ ESPERA → 👆 TOCA → 📏 DESCUBRE**
+**🌊 OBSERVA → 🚤 ACELERA → 💨 SALTA → 📏 SUPERA TU RÉCORD**
 
 </div>
 
 | Detalle | Cómo funciona |
 | :--- | :--- |
-| 🌊 Ola | Se mueve automáticamente y cambia ligeramente entre partidas. |
-| 👆 Control | Un toque en la escena o en **¡Ahora!**; también sirve clic o barra espaciadora. |
-| 📏 Resultado | Distancia virtual entre la barca y la cresta en el instante del toque. |
-| 🏆 Ola perfecta | Menos de **8 cm** activa la celebración. |
-| ⭐ Récord | Tu mejor marca queda guardada en este navegador cuando está disponible. |
+| 🌊 Ola | Se aproxima automáticamente y cambia ligeramente entre partidas. |
+| 👆 Control | Un toque en la escena o en **¡Acelera!**; también sirve clic o barra espaciadora. |
+| 📏 Resultado | Distancia del salto conseguida tras atacar la ola. |
+| 🏆 Salto perfecto | Atacar muy cerca de la cresta maximiza el salto y activa la celebración. |
+| ⭐ Récord | Tu salto más largo queda guardado en este navegador cuando está disponible. |
 | 🔊 Sonido | Siempre empieza desactivado y puedes activarlo desde la cabecera. |
 
 ## 🚀 Jugar
 
 **[Abrir La Ola Perfecta](https://goyoaga.github.io/la-ola-perfecta/)**
 
-Está pensado especialmente para móvil: observa la ola y toca con una sola mano. Cada intento dura apenas unos segundos y puedes lanzar inmediatamente **otra ola**.
+Está pensado especialmente para móvil: observa la ola y acelera con un solo toque. Cada intento dura apenas unos segundos y puedes lanzar inmediatamente **otra ola**.
 
 ## ☕ Apoya UNAMAS GAMES
 
