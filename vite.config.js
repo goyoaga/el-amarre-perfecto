@@ -1,1 +1,1 @@
-import { defineConfig } from 'vite'; export default defineConfig({base:'/paso-entre-olas/'});
+import { defineConfig } from 'vite'; export default defineConfig({base:'/el-amarre-perfecto/'});
