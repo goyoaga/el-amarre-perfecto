@@ -35,7 +35,6 @@ function boat(x,y,tilt=0){ctx.save();ctx.translate(x,y);ctx.rotate(tilt);
   path([[-62,-5],[62,-5],[46,29],[-45,29]],'#fff8e9');ctx.strokeStyle='#284f55';ctx.lineWidth=3;ctx.stroke();
   ctx.fillStyle='#bd6b50';ctx.fillRect(-47,-1,91,7);path([[-29,-7],[31,-7],[20,-31],[-15,-31]],'#c78a4e');
   ctx.fillStyle='#f3e5cb';ctx.fillRect(-10,-25,30,17);ctx.strokeStyle='#6b4d36';ctx.lineWidth=2;ctx.strokeRect(-10,-25,30,17);
-  ctx.fillStyle='#23464d';ctx.beginPath();ctx.roundRect(-47,12,22,30,5);ctx.fill();ctx.fillStyle='#d9e4df';ctx.font='700 10px sans-serif';ctx.fillText('40',-42,31);
   ctx.strokeStyle='#d9ddd4';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(-32,-7);ctx.lineTo(-25,-27);ctx.lineTo(29,-27);ctx.lineTo(38,-7);ctx.stroke();
   ctx.restore()}
 function drawTargetZone(){
