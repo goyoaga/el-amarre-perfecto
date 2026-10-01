@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="public/cover.svg" alt="La Ola Perfecta: una pequeña barca sobre una ola mediterránea" width="100%" />
+<img src="public/cover.svg" alt="Paso Entre Olas: una barca frente a un paso entre dos olas" width="100%" />
 
-# 🌊 La Ola Perfecta
+# 🌊 Paso Entre Olas
 
-### Una barca. Una ola. Un solo toque.
+### Dos olas. Un hueco. Un solo toque.
 
-**¿Puedes atacar la ola en el momento exacto y conseguir el salto perfecto?**
+**Espera el momento, acelera y atraviesa antes de que el paso se cierre.**
 
-[![Jugar](https://img.shields.io/badge/▶_JUGAR_AHORA-326F70?style=for-the-badge&logoColor=white)](https://goyoaga.github.io/la-ola-perfecta/)
+[![Jugar](https://img.shields.io/badge/▶_JUGAR_AHORA-326F70?style=for-the-badge&logoColor=white)](https://goyoaga.github.io/paso-entre-olas/)
 [![Ko-fi](https://img.shields.io/badge/☕_INVÍTAME_UN_CAFÉ-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/arielgoyoaga)
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES_Modules-F7DF1E?style=for-the-badge&logo=javascript&logoColor=222)
@@ -22,37 +22,37 @@
 
 ---
 
-## ✨ Convierte la ola en una rampa
+## ✨ Encuentra el paso
 
-La barca avanza mientras una ola se acerca. Tu única decisión es **cuándo acelerar**. Toca al atacar la cresta: cuanto mejor sea el timing, más alto despega la barca y mayor será la distancia del salto.
+Las olas abren y cierran un hueco frente a la barca. **Toca cuando veas tu oportunidad**: la barca acelerará automáticamente. Si atraviesas limpio, sumas uno a tu racha y aparece inmediatamente el siguiente paso.
 
 <div align="center">
 
-**🌊 OBSERVA → 🚤 ACELERA → 💨 SALTA → 📏 SUPERA TU RÉCORD**
+**🌊 ESPERA → 👆 TOCA → 🚤 PASA → 🔥 ENCADENA**
 
 </div>
 
 | Detalle | Cómo funciona |
 | :--- | :--- |
-| 🌊 Ola | Se aproxima automáticamente y cambia ligeramente entre partidas. |
-| 👆 Control | Un toque en la escena o en **¡Acelera!**; también sirve clic o barra espaciadora. |
-| 📏 Resultado | Distancia del salto conseguida tras atacar la ola. |
-| 🏆 Salto perfecto | Atacar muy cerca de la cresta maximiza el salto y activa la celebración. |
-| ⭐ Récord | Tu salto más largo queda guardado en este navegador cuando está disponible. |
-| 🔊 Sonido | Siempre empieza desactivado y puedes activarlo desde la cabecera. |
+| 🌊 Olas | El paso se abre y se cierra continuamente. |
+| 👆 Control | Un toque, clic o barra espaciadora. |
+| 🔥 Racha | Cada paso limpio suma uno. |
+| 💥 Fallo | Si el paso está demasiado cerrado, la ola alcanza la barca. |
+| ⭐ Récord | Tu mejor racha queda guardada en este navegador. |
+| 🔊 Sonido | Empieza desactivado. |
 
 ## 🚀 Jugar
 
-**[Abrir La Ola Perfecta](https://goyoaga.github.io/la-ola-perfecta/)**
+**[Abrir Paso Entre Olas](https://goyoaga.github.io/paso-entre-olas/)**
 
-Está pensado especialmente para móvil: observa la ola y acelera con un solo toque. Cada intento dura apenas unos segundos y puedes lanzar inmediatamente **otra ola**.
+No hay pantalla de resultado entre aciertos: superas una ola y la siguiente llega enseguida. Al fallar, pulsa **UNA MÁS**.
 
 ## ☕ Apoya UNAMAS GAMES
 
-El juego es gratuito. Si te divertiste y quieres apoyar la creación de más minijuegos, puedes **[invitarme un café en Ko-fi ☕](https://ko-fi.com/arielgoyoaga)**.
+Si te divertiste, puedes **[invitarme un café en Ko-fi ☕](https://ko-fi.com/arielgoyoaga)**.
 
-También puedes descubrir los demás juegos en **[UNAMAS GAMES](https://goyoaga.github.io/una-mas-games/)**.
+Descubre los demás juegos en **[UNAMAS GAMES](https://goyoaga.github.io/una-mas-games/)**.
 
 ---
 
-<div align="center"><sub>Una ola más. Y otra. 🌊</sub></div>
+<div align="center"><sub>Una más. Y otra. 🌊</sub></div>
