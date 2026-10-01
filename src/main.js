@@ -30,7 +30,19 @@ function end(kind){
   try{window.goatcounter?.count?.({path:'amarre-completado',title:'Amarre completado',event:true,no_session:true})}catch{}
 }
 function path(points,fill){ctx.beginPath();ctx.moveTo(...points[0]);points.slice(1).forEach(p=>ctx.lineTo(...p));ctx.closePath();ctx.fillStyle=fill;ctx.fill()}
-function boat(x,y,tilt=0){ctx.save();ctx.translate(x,y);ctx.rotate(tilt);ctx.fillStyle='rgba(22,65,66,.17)';ctx.beginPath();ctx.ellipse(0,31,61,10,0,0,Math.PI*2);ctx.fill();path([[-58,0],[58,0],[38,30],[-40,30]],'#f4ead8');ctx.strokeStyle='#315d5b';ctx.lineWidth=4;ctx.stroke();ctx.fillStyle='#bd6b50';ctx.fillRect(-15,-31,34,31);ctx.fillStyle='#244c4d';ctx.fillRect(-2,-44,4,44);ctx.restore()}
+function boat(x,y,tilt=0){ctx.save();ctx.translate(x,y);ctx.rotate(tilt);
+  ctx.fillStyle='rgba(14,55,62,.2)';ctx.beginPath();ctx.ellipse(0,34,66,12,0,0,Math.PI*2);ctx.fill();
+  path([[-62,-5],[62,-5],[46,29],[-45,29]],'#fff8e9');ctx.strokeStyle='#284f55';ctx.lineWidth=3;ctx.stroke();
+  ctx.fillStyle='#bd6b50';ctx.fillRect(-47,-1,91,7);path([[-29,-7],[31,-7],[20,-31],[-15,-31]],'#c78a4e');
+  ctx.fillStyle='#f3e5cb';ctx.fillRect(-10,-25,30,17);ctx.strokeStyle='#6b4d36';ctx.lineWidth=2;ctx.strokeRect(-10,-25,30,17);
+  ctx.fillStyle='#23464d';ctx.beginPath();ctx.roundRect(-47,12,22,30,5);ctx.fill();ctx.fillStyle='#d9e4df';ctx.font='700 10px sans-serif';ctx.fillText('40',-42,31);
+  ctx.strokeStyle='#d9ddd4';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(-32,-7);ctx.lineTo(-25,-27);ctx.lineTo(29,-27);ctx.lineTo(38,-7);ctx.stroke();
+  ctx.restore()}
+function drawTargetZone(){
+  const right=state.dockFace-9,left=Math.max(0,right-118),top=535,bottom=638,r=18;
+  ctx.save();ctx.fillStyle='rgba(248,230,116,.10)';ctx.strokeStyle='rgba(255,246,197,.95)';ctx.lineWidth=5;ctx.setLineDash([15,12]);
+  ctx.beginPath();ctx.roundRect(left,top,right-left,bottom-top,r);ctx.fill();ctx.stroke();ctx.setLineDash([]);ctx.restore();
+}
 function drawDock(){
   const d=state.dockFace;
   ctx.fillStyle='#d8c19b';ctx.fillRect(d,392,W-d,272);ctx.fillStyle='#b89468';
@@ -38,14 +50,16 @@ function drawDock(){
   ctx.fillStyle='#765d45';ctx.fillRect(d-5,405,10,260);
   ctx.strokeStyle='#f6ead4';ctx.lineWidth=5;ctx.beginPath();ctx.moveTo(state.mooringX,485);ctx.lineTo(state.mooringX,650);ctx.stroke();
   ctx.fillStyle='#b75a42';ctx.beginPath();ctx.arc(state.mooringX,595,21,0,Math.PI*2);ctx.fill();ctx.fillStyle='#f4ead8';ctx.beginPath();ctx.arc(state.mooringX,595,8,0,Math.PI*2);ctx.fill();
-  ctx.fillStyle='#213d40';ctx.font='700 16px DM Sans';ctx.fillText('AMARRE',state.mooringX-34,555);
 }
 function draw(now){
   ctx.clearRect(0,0,W,H);let sky=ctx.createLinearGradient(0,0,0,480);sky.addColorStop(0,'#e9eee7');sky.addColorStop(1,'#eee4d3');ctx.fillStyle=sky;ctx.fillRect(0,0,W,H);
-  ctx.fillStyle='rgba(224,177,106,.3)';ctx.beginPath();ctx.arc(820,125,68,0,Math.PI*2);ctx.fill();path([[0,335],[150,295],[270,330],[405,280],[545,330],[700,295],[840,330],[1000,285],[1000,410],[0,410]],'#9fb7a9');
+  ctx.fillStyle='rgba(224,177,106,.3)';ctx.beginPath();ctx.arc(820,125,68,0,Math.PI*2);ctx.fill();
+  path([[0,355],[90,310],[155,325],[225,270],[300,322],[385,245],[465,315],[560,260],[650,318],[735,240],[825,305],[905,260],[1000,300],[1000,410],[0,410]],'#8ea89a');
+  path([[0,372],[120,338],[215,354],[330,306],[425,350],[540,315],[660,356],[790,315],[900,344],[1000,320],[1000,410],[0,410]],'#6f9386');
+  ctx.fillStyle='#f0dfc3';for(const [x,y,s] of [[112,324,1],[270,317,.8],[470,323,.9],[680,323,.75],[858,312,.9]]){ctx.fillRect(x,y,34*s,20*s);ctx.fillStyle='#b86d4e';ctx.beginPath();ctx.moveTo(x-3*s,y);ctx.lineTo(x+17*s,y-12*s);ctx.lineTo(x+37*s,y);ctx.fill();ctx.fillStyle='#f0dfc3'}
   let sea=ctx.createLinearGradient(0,390,0,H);sea.addColorStop(0,'#6faaa2');sea.addColorStop(1,'#397b79');ctx.fillStyle=sea;ctx.fillRect(0,390,W,H-390);
   ctx.strokeStyle='rgba(235,245,238,.35)';ctx.lineWidth=3;for(let y=445;y<760;y+=62){ctx.beginPath();for(let x=0;x<=W;x+=20){let yy=y+Math.sin(x*.018+now*.0012)*5;x?ctx.lineTo(x,yy):ctx.moveTo(x,yy)}ctx.stroke()}
-  drawDock();
+  drawDock();drawTargetZone();
   let dt=Math.min(.032,(now-state.last)/1000);state.last=now;
   if(phase==='ready'||phase==='coast'){
     if(phase==='coast')state.v=Math.max(0,state.v-state.decel*dt);
