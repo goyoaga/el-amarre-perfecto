@@ -10,6 +10,7 @@ function newRound(){
   $('scene-label').textContent='OBJETIVO: DETENTE JUNTO A LA BOYA · SIN TOCAR EL MUELLE';
   $('best').textContent=best===null?'MEJOR · —':'MEJOR · '+best.toFixed(2)+' M';
 }
+function confetti(){const host=$('scene');for(let i=0;i<28;i++){const p=document.createElement('i');p.className='confetti';p.style.left=(42+Math.random()*22)+'%';p.style.top=(42+Math.random()*12)+'%';p.style.setProperty('--dx',((Math.random()-.5)*360)+'px');p.style.setProperty('--dy',(90+Math.random()*230)+'px');p.style.transform='rotate('+Math.random()*180+'deg)';host.appendChild(p);setTimeout(()=>p.remove(),1300)}}
 function sound(freq=360,d=.15){if(!audioOn)return;try{audio??=new AudioContext();let o=audio.createOscillator(),g=audio.createGain();o.frequency.value=freq;g.gain.setValueAtTime(.06,audio.currentTime);g.gain.exponentialRampToValueAtTime(.001,audio.currentTime+d);o.connect(g).connect(audio.destination);o.start();o.stop(audio.currentTime+d+.01)}catch{}}
 function cut(){if(phase!=='ready')return;phase='coast';$('action').disabled=true;$('scene-label').textContent='MOTOR CORTADO · AHORA SOLO PUEDES MIRAR…';sound(250,.1)}
 function end(kind){
@@ -25,7 +26,7 @@ function end(kind){
   if(kind!=='crash'&&(best===null||err<best)){best=err;try{localStorage.setItem('el-amarre-perfecto-best',String(best))}catch{}}
   $('best').textContent=best===null?'MEJOR · —':'MEJOR · '+best.toFixed(2)+' M';$('ready').hidden=true;$('result').hidden=false;$('action').disabled=false;
   $('scene-label').textContent=kind==='crash'?'IMPACTO · DEMASIADO TARDE':verdict.toUpperCase()+' · '+err.toFixed(2)+' M';
-  sound(kind==='crash'?120:err<=.12?700:430,.2);
+  if(kind!=='crash'&&err<=.45)confetti();sound(kind==='crash'?120:err<=.12?700:430,.2);
   try{window.goatcounter?.count?.({path:'amarre-completado',title:'Amarre completado',event:true,no_session:true})}catch{}
 }
 function path(points,fill){ctx.beginPath();ctx.moveTo(...points[0]);points.slice(1).forEach(p=>ctx.lineTo(...p));ctx.closePath();ctx.fillStyle=fill;ctx.fill()}
