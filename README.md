@@ -51,7 +51,7 @@ Cada intento dura solo unos segundos. Lo difícil empieza después de tocar: ya 
 
 Si te divertiste, puedes **[invitarme un café en Ko-fi ☕](https://ko-fi.com/arielgoyoaga)**.
 
-Descubre los demás juegos en **[UNAMAS GAMES](https://goyoaga.github.io/una-mas-games/)**.
+Descubre los demás juegos en **[UNAMAS GAMES](https://goyoaga.github.io/unamas-games/)**.
 
 ---
 
